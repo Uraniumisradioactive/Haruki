@@ -11,8 +11,9 @@ module.exports = {
             .setFooter(`${user.tag}'s avatar!`)
             .setColor(message.guild.me.displayHexColor)
             .setImage(user.displayAvatarURL({size: 4096, dynamic: true}))
+            
 
-         )
+                )
          
              }
 }
