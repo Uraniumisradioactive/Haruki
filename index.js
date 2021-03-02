@@ -19,7 +19,7 @@ for (const file of commandFiles) {
 
 client.on('ready', () => {
   console.log(`${client.user.tag} is on :3!`);
-  client.user.setActivity('Road To 2000 Members', { type: 'WATCHING'});
+  client.user.setActivity('+1k Membri', { type: 'WATCHING'});
 });
 
 client.on('message', message => {
@@ -235,6 +235,13 @@ client.on('message', message => {
 		client.commands.get('textflip').execute(client, message, args);
 	}
 
+	//Verifica cmd
+
+	if(command === 'verifica') {
+		client.commands.get('verifica').execute(client, message, args);
+	}
+
+
 	//Time cmd
 
 	if(command === 'time') {
@@ -269,5 +276,5 @@ client.on('message', message => {
 });
 
 
-client.login(process.env.token);
+client.login(config.token);
 

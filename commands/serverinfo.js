@@ -17,7 +17,7 @@ module.exports = {
         .addField("Regine", `${message.guild.region}`)
         .addField('Creato Il', message.guild.createdAt.toLocaleString())
         .addField("Membri", `${message.guild.memberCount} members`)
-        .addField("Emojit", `${message.guild.emojis.cache.size} emojis`)
+        .addField("Emoji", `${message.guild.emojis.cache.size} emojis`)
         .addField("Ruoli", `${message.guild.roles.cache.size} roles`)
         .addField("Channels", `${message.guild.channels.cache.size} channels`)
 
