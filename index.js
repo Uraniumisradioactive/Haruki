@@ -19,7 +19,7 @@ for (const file of commandFiles) {
 
 client.on('ready', () => {
   console.log(`${client.user.tag} is on :3!`);
-  client.user.setActivity('+1k Membri', { type: 'WATCHING'});
+  client.user.setActivity('+1,5k Membri', { type: 'WATCHING'});
 });
 
 client.on('message', message => {
